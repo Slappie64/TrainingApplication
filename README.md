@@ -1,2 +1,2 @@
-# Workout_Generator
+# TrainingApplication
 An application to generate workouts and track completed workouts. 
