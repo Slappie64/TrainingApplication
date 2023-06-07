@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" lang="en">
-    <head>
-        <link rel="Stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
-        <meta charset="UTF-8" />
-        <title>TrainingApp</title>
-    </head>
-    <body>
-        <h1>Training Application</h1>
-    </body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to Training App {% endblock %}</h1>
+{% endblock %}
