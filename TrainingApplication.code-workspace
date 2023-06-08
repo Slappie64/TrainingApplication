@@ -5,6 +5,7 @@
         }
     ],
     "settings": {
-        "python.envFile": "${workspaceFolder}/TrainingAppEnv"
+        "python.envFile": "${workspaceFolder}/TrainingAppEnv",
+        "terminal.integrated.fontFamily": ""
     }
 }
